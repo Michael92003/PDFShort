@@ -22,8 +22,8 @@ def findUseful(filename):
         if page.extractText() not in nextPage.extractText():
             pages.append(page)
 
+    createNewPdf(filename,pages)
     fin.close()
-    return pages
 
 def createNewPdf(filename,pages):
     """
@@ -56,9 +56,7 @@ def removeRedundant(filename):
     Return:
         None
     """
-    pages = findUseful(filename)
-    createNewPdf(filename,pages)
-
+    findUseful(filename)
 
 def main():
     files = os.listdir("LongPDFs")
