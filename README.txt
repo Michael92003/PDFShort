@@ -11,5 +11,4 @@ Contents:
 Running instructions:
 Place your pdf files in the LongPDFs folder, then run from the command line with python3 PDFShort.py
 
-WARNING: This program gets the pages right, but when copying pages to the new pdfs the formatting gets
-messed up for some reason
+WARNING: This program gets the pages right, but when copying pages to the new pdfs the formatting gets messed up for some reason
