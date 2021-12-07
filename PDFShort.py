@@ -59,6 +59,8 @@ def removeRedundant(filename):
     findUseful(filename)
 
 def main():
+    if not os.path.isdir("ShortPDFs"):
+        os.mkdir("ShortPDFs")
     files = os.listdir("LongPDFs")
     for i in files:
         if i[-4:] == ".pdf":
