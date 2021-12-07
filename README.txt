@@ -5,7 +5,7 @@ Contents:
  - PDFShort.py: the program that shortens the pdfs
  - LongPDFs: a directory containing the pdfs to be shortened
  - ShortPDFs: a directory that the shortened pdfs are written to
- - README - this file
+ - README.txt - this file
 
 Running instructions:
-Place your pdf files in the LongPDFs folder, then run from the command line with python3 PDFShort.py
+Place your pdf files in the LongPDFs folder, then run from the command line with python3 PDFShort.py. Remove the shortened files from ShortPDFs.
