@@ -21,7 +21,7 @@ def findUseful(filename):
         nextPage = reader.getPage(i+1)
         if page.extractText() not in nextPage.extractText():
             pages.append(page)
-
+    pages.append(reader.getPage(reader.numPages-1))
     createNewPdf(filename,pages)
     fin.close()
 
