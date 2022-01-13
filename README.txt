@@ -7,5 +7,9 @@ Contents:
  - ShortPDFs: a directory that the shortened pdfs are written to
  - README.txt - this file
 
+Additional requirements:
+Requires that you have Python and PyPDF2 installed.
+PyPDF2: https://pypi.org/project/PyPDF2/
+
 Running instructions:
 Place your pdf files in the LongPDFs folder, then run from the command line with python3 PDFShort.py. Remove the shortened files from ShortPDFs.
