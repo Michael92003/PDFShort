@@ -1,5 +1,5 @@
 PDFShort
-A python program designed to remove redundant pages from pdfs, redundant pages being ones that are comprised entirely of text found in the next page. Shortened pdfs are written to the ShortPDFs folder. Any files in ShortPDFs with the same name as a file in LongPDFs will be overwritten, so be careful.
+A python program designed to remove redundant pages from pdfs, redundant pages being ones that are comprised entirely of text found in the next page (often found in lecture notes). Shortened pdfs are written to the ShortPDFs folder. Any files in ShortPDFs with the same name as a file in LongPDFs will be overwritten, so be careful.
 
 Contents:
  - PDFShort.py: the program that shortens the pdfs
